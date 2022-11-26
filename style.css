@@ -1,0 +1,49 @@
+body{background-color: rgba(0, 231, 247, 0.973) ;
+    
+
+
+}
+
+
+
+h1{color: aliceblue;
+    background-color:rgba(252, 0, 0, 0.541);
+    display: inline-block;
+    padding: 25px 35px;
+    border: 4px ridge black;
+    text-align: center;
+    margin-left: 500px;
+    font-size: xx-large;
+    border-radius: 20px;
+
+
+
+}
+h2{color: aliceblue;
+    display: inline-block;
+    padding: 30px 45px;
+    border: 4px ridge black;
+    text-align: center;
+    background-color: rgba(37, 5, 151, 0.452);
+    margin-left: 500px;
+    font-size: xx-large;
+    border-radius: 20px;
+    block-size: 20px;
+
+
+}
+img{ margin-left: 30%;
+
+}
+p{ border: 4px ridge black;
+    background-color: rgba(0, 0, 255, 0.473);
+
+
+}
+address{ border: 4px double black;
+    display: inline-block;
+    text-align: left;
+    margin-left: 90%;
+
+
+}

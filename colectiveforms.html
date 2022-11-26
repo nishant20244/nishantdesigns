@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <style>
+        body{
+            margin: auto;
+        }
+        .container{
+            background-color: black;
+        }
+        .container1{
+            display: flex;
+            width: 70%;
+            margin: auto;
+            justify-content: center;
+            padding-top: 50px;
+            
+            
+        }
+        .register{
+            border: 2px solid black;
+            width: 33%;
+            margin: 10px;
+            padding: 20px;
+            background-size: cover;
+            
+
+        }
+        .login{
+            border: 2px solid black;
+            width: 33%;
+            margin: 10px;
+            padding: 20px;
+            background-image: url(Kedarnath-Photos4.jpg);
+            background-size: cover;
+        }
+        .accountreset{
+            border: 2px solid black;
+            width: 33%;
+            margin: 10px;
+            padding: 20px;
+            background-image: url(wallpaper.jpg);
+            background-size: cover;
+        }
+        a{
+            color: rgb(0, 247, 123);
+        }
+        .topic1{
+            background-color: rgba(255, 0, 76, 0.733);
+           
+        }
+        .topic2{
+            background-color: rgba(255, 187, 0, 0.712);
+        }
+        .topic3{
+            background-color: rgba(0, 47, 255, 0.747);
+        }
+        .topic4{
+            background-color: rgba(0, 175, 206, 0.664);
+        }
+        input{
+            width: 96%;
+        }
+        label{
+            justify-content: center;
+            color: whitesmoke;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .checkbox{
+            width: 10%;
+        }
+
+
+
+    </style>
+
+    <body>
+
+<div class="container">
+    <div class="container1">
+
+        <div class="register">
+            
+            <div class="topic1"><h1>REGISTER </h1></div>
+            <input type="text" placeholder="Name"><br><br>
+            <input type="password" placeholder="Password"><br><br>
+            <input type="password" placeholder="Confirm Password"><br><br>
+            <input type="email" placeholder="E mail"><br><br>
+            <input class="checkbox" type="checkbox"> 
+            <label for="">I Agree To The </label>
+            <a href=""> Terms of Services </a><br><br>
+            <div><input class="topic1" type="button" value="Sign Up"></div><br>
+            <label for="">Already a member? </label>
+            <a href="">Sign In </a>
+        </div>
+
+
+        <div class="login">
+            <div class="topic2"><h1>LOGIN</h1></div>
+            <input type="text" placeholder="User Name"><br><br>
+            <input type="password" placeholder="Password"><br><br>
+            <input class="checkbox" type="checkbox">
+            <label for="">Remeber Me </label> 
+            <label for="">Forgot Password?</label><br><br>
+            <div class="button"><input class="topic2" type="button" value="Sign In "></div><br>
+            <label for="">Continue With</label><br><br>
+            <label for="">Don't have an account? </label>
+            <a href="">Sign Up </a>
+        </div>
+
+        <div class="accountreset"> 
+            <div class="topic3"><h1>ACCOUNT RESET </h1></div>
+            <input type="password" placeholder="New Password"><br><br>
+            <input type="password" placeholder="Confirm Password"><br><br>
+
+            <div><input class="topic4" type="button" value="Reset Password"></div><br>
+            <div><input class="topic3" type="button" value="Send"></div><br>
+            <label for="">Already a member?</label>
+            <a href="">Sign In </a>
+
+        </div>
+
+
+    </div>
+
+</div>
+    </body>
+</html>
